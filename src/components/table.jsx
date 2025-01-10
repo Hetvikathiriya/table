@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function table() {
     const data = [
       { sr_no:1,subCode:"DSC-C-SMD-111P",subName:"Software programing principle",credit:4 },
       { sr_no:2,subCode:"DSC-C-SMD-111P",subName:"Software programing principle",credit:4 },
@@ -38,5 +38,5 @@ function App() {
     )
   }
   
-  export default App
+  export default table
   
