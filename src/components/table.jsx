@@ -53,7 +53,7 @@ function table() {
           {/* </thead> */}
           {/* <tbody> */}
           {data.map((row) => (
-            <tr className="border-2 ">
+            <tr className="border-2 bg-blue-950">
               <td className="py-2 px-4">{row.sr_no}</td>
               <td className="py-2 px-4">{row.subCode}</td>
               <td className="py-2 px-4">{row.subName}</td>
@@ -67,4 +67,4 @@ function table() {
   );
 }
 
-export default table;
+export default App;
