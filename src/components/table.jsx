@@ -67,4 +67,4 @@ function table() {
   );
 }
 
-export default App;
+export default table;
