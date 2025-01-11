@@ -1,6 +1,6 @@
 import React from "react";
 
-function table() {
+function Table1() {
   const data = [
     {
       sr_no: 1,
@@ -65,4 +65,4 @@ function table() {
   );
 }
 
-export default table;
+export default Table1;

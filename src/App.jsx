@@ -2,15 +2,15 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import "./components/table";
+import Table1 from "./components/Table1";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>hello</h1>
-      <table className="min-w-[800px] text-white" />
+      <Table1 className="min-w-[800px] text-white" />
+      
     </>
   );
 }
