@@ -42,27 +42,25 @@ function table() {
   return (
     <>
       <div>
-        <table className="bg-blue-950 text-white table-auto rounded-2xl">
-          {/* <thead className="bg-gray-200 border-b"> */}
-          <tr className="bg-blue-300">
-            <th className="py-2 px-4 text-left">Sr_no</th>
-            <th className="py-2 px-4 text-left">Student Code</th>
-            <th className="py-2 px-4 text-left">Student Name</th>
-            <th className="py-2 px-4 text-left">Credit</th>
-          </tr>
-          {/* </thead> */}
-          {/* <tbody> */}
+      <table className='min-w-[800px] text-white'>
+            <tr className='bg-blue-300 rounded-2xl'>
+              <th className="py-2 px-4 rounded-s-3xl">Sr_no</th>
+              <th className="py-2 px-4 text-center">Student Code</th>
+              <th className="py-2 px-4 text-center">Student Name</th>
+              <th className="py-2 px-4 text-center rounded-e-3xl">Credit</th>
+            </tr>
+        
           {data.map((row) => (
-            <tr className="border-2 bg-blue-950">
-              <td className="py-2 px-4">{row.sr_no}</td>
-              <td className="py-2 px-4">{row.subCode}</td>
-              <td className="py-2 px-4">{row.subName}</td>
-              <td className="py-2 px-4">{row.credit}</td>
+            <tr className="border-2 text-white bg-blue-900 " >
+              <td className="py-2 px-4 rounded-s-3xl">{row.sr_no}</td>
+              <td className="py-2 px-4 ">{row.subCode}</td>
+              <td className="py-2 px-4 ">{row.subName}</td>
+              <td className="py-2 px-4 rounded-e-3xl">{row.credit}</td>
             </tr>
           ))}
-          {/* </tbody> */}
-        </table>
-      </div>
+       
+      </table>
+    </div>
     </>
   );
 }
