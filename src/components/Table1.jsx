@@ -41,26 +41,25 @@ function Table1() {
   ];
   return (
     <>
-      <div>
-      <table className='min-w-[800px] text-white'>
-            <tr className='bg-blue-300 rounded-2xl'>
-              <th className="py-2 px-4 rounded-s-3xl">Sr_no</th>
-              <th className="py-2 px-4 text-center">Student Code</th>
-              <th className="py-2 px-4 text-center">Student Name</th>
-              <th className="py-2 px-4 text-center rounded-e-3xl">Credit</th>
-            </tr>
-        
+      <div className="mb-2">
+        <table className="min-w-[800px] text-white border-separate">
+          <tr className="bg-blue-300 rounded-2xl">
+            <th className="py-2 px-4 rounded-s-3xl">Sr_no</th>
+            <th className="py-2 px-4 text-center">Student Code</th>
+            <th className="py-2 px-4 text-center">Student Name</th>
+            <th className="py-2 px-4 text-center rounded-e-3xl">Credit</th>
+          </tr>
+
           {data.map((row) => (
-            <tr className="border-2 text-white bg-blue-900 " >
+            <tr className=" text-white bg-blue-900 m-1">
               <td className="py-2 px-4 rounded-s-3xl">{row.sr_no}</td>
               <td className="py-2 px-4 ">{row.subCode}</td>
               <td className="py-2 px-4 ">{row.subName}</td>
               <td className="py-2 px-4 rounded-e-3xl">{row.credit}</td>
             </tr>
           ))}
-       
-      </table>
-    </div>
+        </table>
+      </div>
     </>
   );
 }
