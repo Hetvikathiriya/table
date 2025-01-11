@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h1>hello</h1>
-      <table />
+      <table className="min-w-[800px] text-white" />
     </>
   );
 }
