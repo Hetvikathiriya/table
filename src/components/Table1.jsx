@@ -41,8 +41,8 @@ function Table1() {
   ];
   return (
     <>
-      <div className="mb-2">
-        <table className="min-w-[800px] text-white border-separate">
+      <div className="mb-2 text-center px-2">
+        <table className="min-w-[900px] text-white border-separate">
           <tr className="bg-blue-300 rounded-2xl">
             <th className="py-2 px-4 rounded-s-3xl">Sr_no</th>
             <th className="py-2 px-4 text-center">Student Code</th>
